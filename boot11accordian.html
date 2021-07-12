@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384
+    -+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="boot2.css">
+</head>
+<body>
+    <div class="container bg-dark">
+        <p class="display-1 text-center text-primary">Accordian</p>
+
+        <div class="accordion " id="acrd">
+            <div class="accordion-item m-5">
+                <div class="accordion-header">
+                    <button class="accordion-button " data-bs-toggle="collapse" data-bs-target="#cone">Link-1</button>
+                </div>
+                <div class="accordion-collapse collapse" id="cone" data-bs-parent="#acrd">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id praesentium,
+                             earum similique nesciunt quasi laboriosam non? Nemo,
+                             perferendis ipsa illo ut dolore omnis et eos iusto consequuntur
+                            magnam deleniti?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        
+
+            <div class="accordion-item m-5">
+                <div class="accordion-header">
+                    <button class="accordion-button " data-bs-toggle="collapse" data-bs-target="#ctwo">Link-2</button>
+                </div>
+                <div class="accordion-collapse collapse" id="ctwo" data-bs-parent="#acrd">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id praesentium,
+                             earum similique nesciunt quasi laboriosam non? Nemo,
+                             perferendis ipsa illo ut dolore omnis et eos iusto consequuntur
+                            magnam deleniti?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="accordion-item m-5">
+                <div class="accordion-header">
+                    <button class="accordion-button " data-bs-toggle="collapse" data-bs-target="#cthree">Link-3</button>
+                </div>
+                <!-- apply data-bs-parent="#accordian id" to close all the remaining accordians when one is opened -->
+                <div class="accordion-collapse collapse" id="cthree" data-bs-parent="#acrd">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id praesentium,
+                             earum similique nesciunt quasi laboriosam non? Nemo,
+                             perferendis ipsa illo ut dolore omnis et eos iusto consequuntur
+                            magnam deleniti?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        
+        </div>  
+ 
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
